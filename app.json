@@ -1,0 +1,116 @@
+{
+	"name": "StadtPuffKings",
+	"description": "",
+	"keywords": [],
+	"stack": "container",
+	"env": {
+		"ALWAYS_ONLINE": {
+			"description": "Zuletzt gesehen beim Bot",
+			"required": false,
+			"value": "false"
+		},
+		"LOG_MSG": {
+			"description": "Show whatsapp msgs in log",
+			"required": false,
+			"value": "false"
+		},
+		"SUDO": {
+			"description": "admin",
+			"required": false,
+			"value": "null"
+		},
+		"PREFIX": {
+			"description": "Beginn des Befehls",
+			"required": false,
+			"value": "."
+		},
+		"SESSION_ID": {
+			"description": "Session_ID",
+			"required": true,
+			"value": ""
+		},
+		"STICKER_PACKNAME": {
+			"description": "Info Sticker-Paket",
+			"required": false,
+			"value": "❤️,SPKings"
+		},
+		"HEROKU_APP_NAME": {
+			"description": "Heroku app name, same as above entered.",
+			"required": true
+		},
+		"HEROKU_API_KEY": {
+			"description": "Heroku account api key, https://dashboard.heroku.com/account",
+			"required": true
+		},
+		"RMBG_KEY": {
+			"description": "API key from remove.bg, required for plugin rmbg",
+			"required": false,
+			"value": "null"
+		},
+		"LANGUAG": {
+			"description": "Standartsprache vom tts oder trt",
+			"required": false,
+			"value": "en"
+		},
+		"WARN_LIMIT": {
+			"description": "Maximum an Warns einer Nutzer.",
+			"required": false,
+			"value": "3"
+		},
+		"FORCE_LOGOUT": {
+			"description": "NOTAUS! Muss erst aktiviert werden.",
+			"required": false,
+			"value": "false"
+		},
+		"DISABLE_BOT": {
+			"description": "Beispiel: jid,jid,... where bot not works in both ways.",
+			"required": false,
+			"value": "null"
+		},
+		"ANTILINK_MSG": {
+			"description": "Nachricht wenn Antilink arbeitet.",
+			"required": false,
+			"value": "_SPKings_ | *REGELBRUCH!!!*Link erkannt! Bye &mention "
+		},
+		"ANTISPAM_MSG": {
+			"description": "Nachricht wenn Antispam arbeitet.",
+			"required": false,
+			"value": "_SPKings_ | *REGELBRUCH!!!* Spam erkannt! Bye &mention "
+		},
+		"ANTIWORDS_MSG": {
+			"description": "Nachricht wenn Antiword arbeitet.",
+			"required": false,
+			"value": "_SPKings_ | *Regelbruch!!!* Achte auf deine Wortwahl &mention !"
+		},
+		"ANTIWORDS": {
+			"description": "Gesperrte Wörter.",
+			"required": false,
+			"value": "Wort1,Wort2,Wort3"
+		},
+		"SS_TOKEN": {
+			"description": "Token aus https://app.screenshotapi.net/dashboard",
+			"required": false,
+			"value": ""
+		},
+		"REJECT_CALL": {
+			"description": "Automatisch Antworten wenn auf true",
+			"required": false,
+			"value": "false"
+		},
+		"AUTO_STATUS_VIEW": {
+			"description": "Automatisches anschauen von Status",
+			"required": false,
+			"value": "true"
+		},
+		"SEND_READ": {
+			"description": "Blauen Haken senden",
+			"required": false,
+			"value": "false"
+		}
+	},
+	"addons": [
+		{
+			"plan": "heroku-postgresql"
+		}
+	]
+}
