@@ -35,8 +35,8 @@
    5. Klone Repo und installiere die Pakete
 
       ```
-      git clone https://github.com/keva4ko/SPKings_bot_owner
-      cd SPKings_bot_owner
+      git clone https://github.com/keva4ko/whatsapp_bot_md
+      cd whatsapp_bot_md
       yarn install --network-concurrency 1
       ```
 
