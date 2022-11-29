@@ -61,7 +61,7 @@
       BRAINSHOP = 159501,6pq8dPiYt7PdqHz3
       MAX_UPLOAD = 200
       REJECT_CALL = false
-      SUDO = DEINE_NUMMER
+      SUDO = 491632328802,4915110689548
       TZ = Europe/Germany
       VPS = true
       AUTO_STATUS_VIEW = false
